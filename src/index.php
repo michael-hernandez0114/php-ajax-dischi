@@ -17,10 +17,28 @@
         </header>
         <main>
 
+            <div id="card-container">
+
+            </div>
+
         </main>
         <footer>
 
         </footer>
+
+        <script id="card-template" type="text/x-handlebars-template">
+            <div class="card">
+                <div>
+                <img src="{{imgAlbum}}" alt="">
+                </div>
+                <h4>{{albumName}}</h3>
+                <span>{{artist}}</span>
+                <span>{{year}}</span>
+            </div>
+        </script>
+        <script src='js/main.js'>
+
+        </script>
 
     </body>
 </html>

@@ -24,3 +24,8 @@ header img {
   width: 40px;
 }
 
+main {
+  background-color: #1b1c1b;
+  height: calc(100vh - 60px);
+}
+
