@@ -1,0 +1,26 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+}
+
+header {
+  background-color: black;
+  height: 60px;
+}
+
+header img {
+  height: 40px;
+  width: 40px;
+}
+
