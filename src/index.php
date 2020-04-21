@@ -17,7 +17,7 @@
         </header>
         <main>
 
-            <div id="card-container">
+            <div id="card-container" class='container'>
 
             </div>
 
@@ -31,12 +31,17 @@
                 <div>
                 <img src="{{imgAlbum}}" alt="">
                 </div>
-                <h4>{{albumName}}</h3>
-                <span>{{artist}}</span>
-                <span>{{year}}</span>
+                <div class='album-name'>
+                    <h3>{{albumName}}</h3>
+                </div>
+                <div class='artist-year'>
+                    <span>{{artist}}</span>
+                    <span>{{year}}</span>
+                </div>
+
             </div>
         </script>
-        <script src='js/main.js'>
+        <script src='../dist/js/app.js'>
 
         </script>
 
